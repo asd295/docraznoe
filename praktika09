@@ -121,3 +121,6 @@ const createOffer = () => {
 };
 
 const createLikeOffers = new Array(OFFER_COUNT).fill(null).map(() => createOffer());
+
+<script src="js/main.js"></script>
+
