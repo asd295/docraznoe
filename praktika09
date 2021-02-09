@@ -103,10 +103,10 @@ const createOffer = () => {
     offer: {
       title: getRandomArrayElement(TITLES),
       address: getRandomLocation(),
-      price: getRandomInteger(10,2000),
+      price: getRandomInteger(10, 2000),
       type: getRandomArrayElement(TYPES),
-      rooms: getRandomInteger(1,200),
-      guests: getRandomInteger(1,450),
+      rooms: getRandomInteger(1, 200),
+      guests: getRandomInteger(1, 450),
       checkin: getRandomArrayElement(TIME),
       checkout: getRandomArrayElement(TIME),
       features: getRandomArray(FEATURES),
